@@ -1,0 +1,37 @@
+/*============= Popup Style ===============*/
+.popify-popup {
+  display: none; /* hide by default */
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  font-family: Arial, sans-serif;
+}
+
+.popify-popup-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.popify-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popify-text {
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 16px;
+}
